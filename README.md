@@ -29,6 +29,17 @@ Add the javascript include to the asset pipeline.
 //= require pinfirmable
 ```
 
+## Skip Emails
+
+To skip the pinfirmable email when creating a user (e.g. when seeding a database) the `skip_pinfirmation!` method is available
+ 
+ ```
+ user = User.new
+ # setup the user
+ user.skip_pinfirmation!
+ user.save
+ ```
+
 ## Todo
  - Encrypt the pin in the DB
 

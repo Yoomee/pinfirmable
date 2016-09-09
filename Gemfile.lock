@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pinfirmable (0.1.1)
+    pinfirmable (0.1.2)
       devise (~> 4.0)
       rails (~> 5.0.0, >= 5.0.0.1)
 
@@ -162,4 +162,4 @@ DEPENDENCIES
   timecop
 
 BUNDLED WITH
-   1.12.5
+   1.13.0.rc.2
